@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate": "fantasticon -c .fantasticonrc.js"
+    "generate": "fantasticon -c .fantasticonrc.js",
+    "oslllo-svg-fixer": "node node_modules/oslllo-svg-fixer/src/cli.js -s icons/linear -d icons/linear"
   },
   "dependencies": {
-    "fantasticon": "2.0.0"
+    "fantasticon": "2.0.0",
+    "oslllo-svg-fixer": "^2.2.0"
   },
   "keywords": [],
   "author": "",
