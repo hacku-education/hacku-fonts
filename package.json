@@ -1,0 +1,15 @@
+{
+  "name": "hacku-fonts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "fantasticon -c .fantasticonrc.js"
+  },
+  "dependencies": {
+    "fantasticon": "2.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
